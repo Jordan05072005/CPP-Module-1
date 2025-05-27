@@ -17,7 +17,6 @@ void ReplaceLine::remplaceS2(){
 		while (line.find(this->s1) != std::string::npos)
 		{
 			line = line.substr(0, line.find(this->s1)) + this->s2 + line.substr(line.find(this->s1) + this->s1.length());
-			std::cout << line;
 		}
 		fichier2 << line << std::endl;
 	}
