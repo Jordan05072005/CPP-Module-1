@@ -32,7 +32,7 @@ void PhoneBook::printContacts(){
 }
 
 void PhoneBook::printContact(int index){
-	if (index < 0 || index > this->n_contact)
+	if (index <= 0 || index > this->n_contact)
 		std::cout << "Bad Index" << std::endl;
 	else{
 		std::cout << "Contact : \n";

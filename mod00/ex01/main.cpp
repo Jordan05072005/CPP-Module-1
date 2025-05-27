@@ -16,7 +16,7 @@ int main(){
 	std::string index;
 
 	while (cmd != "EXIT"){
-		std::cout << "Command :";
+		std::cout << "Command :" << std::endl;
 		std::getline(std::cin, cmd);
 		if (cmd == "ADD")
 			phoneBook.addContact();
