@@ -2,7 +2,7 @@ SRC= main.cpp ZombieHorde.cpp Zombie.cpp
 
 OBJ =${SRC:.c=.o}
 
-CFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra -std=c++98
 
 CC = c++
 
